@@ -7,7 +7,7 @@ import { SEO } from 'astro-seo';
 
 interface Props {
 	title: string;
-	subtitle: string;
+	subtitle?: string;
 }
 
 const { title, subtitle } = Astro.props;
@@ -17,7 +17,7 @@ const { title, subtitle } = Astro.props;
 	<head>
 		<SEO
 			title={title}
-			titleTemplate={`%s - ${subtitle}`}
+			titleTemplate={subtitle ? `%s - ${subtitle}` : '%s'}
 			description="I'm Antonio Granaldi, a dedicated full-stack web developer with a knack for crafting immersive digital experiences with precision and passion."
 			canonical="https://antogno.dev"
 			charset="utf-8"
@@ -50,7 +50,9 @@ const { title, subtitle } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 	</head>
 	<body>
+		<div id="glow" class="pointer-events-none fixed w-full h-full z-50"></div>
 		<slot />
 		<script src="@scripts/themeInitializer.ts"></script>
+		<script src="@scripts/glow.ts"></script>
 	</body>
 </html>

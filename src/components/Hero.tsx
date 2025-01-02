@@ -136,21 +136,21 @@ export default () => {
 										<Image
 											isBlurred
 											src="/images/smiling.png"
-											className="animate-levitate w-64 md:w-80"
+											classNames={{ img: 'animate-levitate w-64 md:w-80' }}
 											alt="Smiling Memoji"
 											hidden={emotion !== 'smiling'}
 										/>
 										<Image
 											isBlurred
 											src="/images/angry.png"
-											className="animate-levitate w-64 md:w-80"
+											classNames={{ img: 'animate-levitate w-64 md:w-80' }}
 											alt="Angry Memoji"
 											hidden={emotion !== 'angry'}
 										/>
 										<Image
 											isBlurred
 											src="/images/enraged.png"
-											className="animate-levitate w-64 md:w-80"
+											classNames={{ img: 'animate-levitate w-64 md:w-80' }}
 											alt="Enraged Memoji"
 											hidden={emotion !== 'enraged'}
 										/>
