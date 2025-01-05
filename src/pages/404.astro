@@ -6,16 +6,16 @@ import * as emoji from 'node-emoji';
 
 <BaseLayout title="Oops!">
 	<main class="container mx-auto max-w-6xl p-10">
-		<div class="flex flex-col gap-14 w-full h-full">
-			<div class="md:text-6xl text-5xl text-center mt-20">
+		<div class="flex flex-col gap-8 w-full h-full mt-10">
+			<div class="md:text-6xl text-5xl text-center">
 				{emoji.emojify(':grimacing:')} Oops!
 			</div>
-			<div class="text-center md:text-2xl text-xl mt-4">
+			<div class="text-center md:text-2xl text-xl">
 				The page you're looking for doesn't exist. Feeling a bit lost? {
 					emoji.emojify(':cloud:')
 				}
 			</div>
-			<div class="flex w-full justify-center mt-8">
+			<div class="flex w-full justify-center">
 				<Image
 					isBlurred
 					src="/images/lost.png"
@@ -24,7 +24,7 @@ import * as emoji from 'node-emoji';
 					client:load
 				/>
 			</div>
-			<div class="flex w-full justify-center mt-8">
+			<div class="flex w-full justify-center">
 				<Button
 					className="w-full md:w-auto"
 					as={Link}
