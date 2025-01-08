@@ -1,17 +1,17 @@
 type Skill = {
 	label: string;
-	type: 'languages' | 'frameworks' | 'databases' | 'tools';
+	type: 'Speciality' | 'frameworks' | 'databases' | 'tools';
 };
 
 const skills: Skill[] = [
-	{ label: 'PHP', type: 'languages' },
-	{ label: 'JavaScript', type: 'languages' },
-	{ label: 'TypeScript', type: 'languages' },
-	{ label: 'Python', type: 'languages' },
-	{ label: 'SQL', type: 'languages' },
-	{ label: 'HTML', type: 'languages' },
-	{ label: 'CSS', type: 'languages' },
-	{ label: 'Sass', type: 'languages' },
+	{ label: 'Construction Management', type: 'Speciality' },
+	{ label: 'JavaScript', type: 'Speciality' },
+	{ label: 'TypeScript', type: 'Speciality' },
+	{ label: 'Python', type: 'Speciality' },
+	{ label: 'SQL', type: 'Speciality' },
+	{ label: 'HTML', type: 'Speciality' },
+	{ label: 'CSS', type: 'Speciality' },
+	{ label: 'Sass', type: 'Speciality' },
 	{ label: 'React', type: 'frameworks' },
 	{ label: 'Vue.js', type: 'frameworks' },
 	{ label: 'Angular', type: 'frameworks' },

@@ -83,10 +83,9 @@ export default () => {
 					<p className="leading-snug">
 						I'm{' '}
 						<span className="font-bold from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-gradient-to-r">
-							Antonio Granaldi
+							Yasir Jahangir
 						</span>
-						, a dedicated full-stack web developer with a knack for crafting
-						immersive digital experiences with precision and passion{' '}
+						, a dedicated full-time developer on commercial real estate projects{' '}
 						{emoji.emojify(':rocket:')}
 					</p>
 					<Spacer y={12} />
@@ -94,7 +93,7 @@ export default () => {
 						<Button
 							className="w-full md:w-auto"
 							as={Link}
-							href="mailto:tonio.granaldi@gmail.com"
+							href="mailto:yasir@futonix.com"
 							color="primary"
 							endContent={<FontAwesomeIcon icon={faEnvelope} />}
 							size="lg"
@@ -104,7 +103,7 @@ export default () => {
 						<Button
 							className="w-full md:w-auto"
 							as={Link}
-							href="antonio-granaldi-cv.pdf"
+							href="yasir-jahangir-cv.pdf"
 							download
 							isExternal
 							color="default"

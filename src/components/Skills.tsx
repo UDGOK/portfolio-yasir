@@ -3,7 +3,7 @@ import { useIsVisible } from '@hooks/useIsVisible';
 import { Spacer } from '@nextui-org/react';
 import { useRef, useState } from 'react';
 
-const languages = skills.filter((skill) => skill.type === 'languages');
+const languages = skills.filter((skill) => skill.type === 'Speciality');
 const frameworks = skills.filter((skill) => skill.type === 'frameworks');
 const databases = skills.filter((skill) => skill.type === 'databases');
 const tools = skills.filter((skill) => skill.type === 'tools');
